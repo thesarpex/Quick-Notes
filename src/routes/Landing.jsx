@@ -20,7 +20,7 @@ function Landing (){
                             Get Started Free
                             </Link>
                             <Link to="/login" className="inline-flex items-center justify-center px-6 py-3 bg-white text-indigo-600 font-medium rounded-lg hover:bg-indigo-50 transition-colors">
-                            Sign in
+                            Sign In
                             </Link>
                         </div>
                 </div>

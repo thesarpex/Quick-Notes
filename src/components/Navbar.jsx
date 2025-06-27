@@ -18,10 +18,10 @@ function Navbar() {
 
                 <div className="flex items-center space-x-4">
                     <div className='space-x-4'>
-                        <Link to="/login" className='text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors'>Login</Link>
+                        <Link to="/login" className='text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors'>Log In</Link>
                     </div>
                     <div>
-                        <Link to="/signup" className='text-sm font-medium text-white px-4 py-2 bg-indigo-600 rounded-md hover:bg-indigo-700 transition-colors'>Signup</Link>
+                        <Link to="/signup" className='text-sm font-medium text-white px-4 py-2 bg-indigo-600 rounded-md hover:bg-indigo-700 transition-colors'>Sign Up</Link>
                     </div>
                 </div>
             </div>
