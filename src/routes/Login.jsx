@@ -4,8 +4,8 @@ import {Link, useNavigate} from 'react-router';
 import {useAuth} from '../context/AuthContext';
 
 function Login (){
-    const {email, setEmail} = useState();
-    const {password, setPassword} = useState();
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
     const [loading, setLoading] = useState();
     const [error, setError] = useState();
     const {login} = useAuth();
