@@ -11,7 +11,7 @@ function NoteForm() {
 
     const [error, setError] = useState('');
 
-    const [success, setSuccess] = useState('');
+    const [success, setSuccess] = useState(false);
 
     const {currentUser} = useAuth();
 
@@ -31,7 +31,7 @@ function NoteForm() {
                 title:title.trim(),
                 content: content.trim(),
                 userId: currentUser.uid,
-                createAt: serverTimestamp()
+                createdAt: serverTimestamp(),
             });
 
             setTitle('');
@@ -61,7 +61,7 @@ function NoteForm() {
 
             {success &&
                     <div className="bg-gree-50 text-green-700 p-2 rounded-md mb-4 text-sm">
-                        Note Created Suucessfully!
+                        Note Created Successfully!
                     </div>
             }
 
